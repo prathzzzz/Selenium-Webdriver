@@ -8,7 +8,7 @@ import java.util.List;
 public class XPathAxesDemo {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.facebook.com/r.php");
+        driver.get("https://money.rediff.com/gainers/bse/daily/groupa");
         driver.manage().window().maximize();
 
         // Self: Refers to the current node itself.
